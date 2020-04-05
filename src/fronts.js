@@ -47,6 +47,18 @@ export default {
     transform: [1, -0.02, -0.08, 1, 0, 0],
     composite: "soft-light",
   },
+  torre: {
+    image: "/img/torre.jpg",
+    fillStyle: "rgba(108, 232, 86,.6)",
+    minSize: 40,
+    maxSize: 150,
+    wFactor: 3,
+    hFactor: 2.5,
+    xFactor: 4.9,
+    yFactor: 1.6,
+    transform: [1, -0.27, 0, 1, 0, 0],
+    composite: "overlay",
+  },
   random: {
     image: "/img/random.jpg",
     fillStyle: "rgba(255, 219, 41,.9)",

@@ -8,10 +8,10 @@ export function preloadImage(src) {
 }
 
 export function download(c) {
-  const data = c.toDataURL("image/jpeg", 1.0);
+  const data = c.toDataURL("image/png", 1.0);
   const a = document.createElement("a");
   a.href = data;
-  a.download = "proxeccion.jpg";
+  a.download = "proxeccion.png";
   document.body.appendChild(a);
   a.click();
 }

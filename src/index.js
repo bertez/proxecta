@@ -69,6 +69,14 @@ async function main() {
   loading.hidden = true;
   app.hidden = false;
 
+  // Select random front (disabled for now)
+  // const options = selector.querySelectorAll("option");
+
+  // options[Math.floor(Math.random() * options.length)].setAttribute(
+  //   "selected",
+  //   true
+  // );
+
   //Add event listeners
   downloadButton.addEventListener("click", () => download(canvas));
   textBox.addEventListener("input", reDraw);
