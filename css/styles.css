@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@font-face {
+  font-family: "Kapra";
+  src: url("/fonts/Kapra-Bold.woff2") format("woff2"),
+    url("/fonts/Kapra-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  --positive: rgb(255, 255, 255);
+  --negative: rgb(0, 0, 0);
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--negative);
+}
+
+.loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin: 1rem;
+}
+
+a {
+  color: var(--positive);
+}
+
+header {
+  font-family: "Kapra", sans-serif;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: var(--positive);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+section.app {
+  margin: 0 auto 4rem auto;
+  max-width: 750px;
+}
+
+section.app form p {
+  margin-bottom: 1rem;
+}
+
+section.app form {
+  margin-bottom: 1rem;
+}
+section.app form textarea {
+  width: 100%;
+  height: 4rem;
+  background: var(--negative);
+  padding: 0.5rem;
+  color: var(--positive);
+  font-size: 1.2rem;
+  border: 2px solid var(--positive);
+  resize: none;
+  overflow: auto;
+}
+
+section.app form select {
+  display: block;
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: black;
+  background: var(--positive);
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 0.5rem 0;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+p.save {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+button {
+  border: none;
+  background: var(--positive);
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proxecta a túa mensaxe</title>
+
+  <meta property="og:title" content="Proxecta a túa mensaxe">
+  <meta property="og:description" content="A túa mensaxe personalizada en algunhas fachadas famosas galegas">
+  <meta property="og:image" content="https://proxecta.netlify.com/img/card.jpg">
+  <meta property="og:url" content="https://proxecta.netlify.com/">
+
+  <meta name="twitter:title" content="Proxecta a túa mensaxe">
+  <meta name="twitter:description" content="A túa mensaxe personalizada en algunhas fachadas famosas galegas">
+  <meta name="twitter:image" content="https://proxecta.netlify.com/img/card.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="loading">
+    <p><img src="/img/grid.svg"></p>
+  </div>
+  <main>
+    <section class="app" hidden>
+      <header>
+        <h1>Proxecta a túa mensaxe personalizada!</h1>
+      </header>
+      <form>
+        <p>Escribe o texto que queiras e onde queres proxectalo:</p>
+        <textarea>
+Lorem ipsum dolor sit amet</textarea>
+        <select>
+          <option value="hercules">Torre de Hércules</option>
+          <option value="santiago">Catedral de Santiago</option>
+          <option value="vigo">Teatro García Barbón</option>
+          <option value="lugo">Muralla de Lugo</option>
+          <option value="random">Un edificio calquera</option>
+        </select>
+      </form>
+
+      <canvas width="750" height="1000"></canvas>
+
+      <p class="save"><button>Gardar imaxe</button></p>
+
+      <p>Código fonte <a href="€">dispoñible en github</a></p>
+
+    </section>
+  </main>
+  <script type="module" src="/src/index.js?v4"></script>
+</body>
+
+</html>
