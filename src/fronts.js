@@ -55,8 +55,8 @@ export default {
     wFactor: 3,
     hFactor: 2.5,
     xFactor: 4.9,
-    yFactor: 1.6,
-    transform: [1, -0.27, 0, 1, 0, 0],
+    yFactor: 1.8,
+    transform: [1, -0.26, 0, 1, 0, 0],
     composite: "overlay",
   },
   random: {
