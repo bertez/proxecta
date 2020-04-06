@@ -56,9 +56,8 @@ function reDraw() {
 }
 
 async function main() {
-  // await font.load();
   if (document.fonts) {
-    await document.fonts.load("12px Kapra");
+    await document.fonts.load("1rem Kapra");
   }
 
   //Preload all front images images
@@ -81,10 +80,9 @@ async function main() {
   //Add event listeners
   downloadButton.addEventListener("click", () => download(canvas));
   textBox.addEventListener("input", reDraw);
-  selector.addEventListener("input", reDraw);
+  selector.addEventListener("change", reDraw);
   textBox.addEventListener("click", selectAll);
 
-  //Initial redraw
   reDraw();
 }
 
