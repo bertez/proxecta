@@ -49,7 +49,7 @@ export default {
   },
   torre: {
     image: "/img/torre.jpg",
-    fillStyle: "rgba(108, 232, 86,.6)",
+    fillStyle: "rgba(255, 255, 255, .7)",
     minSize: 40,
     maxSize: 150,
     wFactor: 3,
