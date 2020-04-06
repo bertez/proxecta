@@ -55,10 +55,11 @@ function reDraw() {
   ctx.restore();
 }
 
-const font = new FontFace("Kapra", 'url("/fonts/Kapra-Bold.woff2")');
-
 async function main() {
-  await font.load();
+  // await font.load();
+  if (document.fonts) {
+    await document.fonts.load("12px Kapra");
+  }
 
   //Preload all front images images
   for (const [front, setup] of Object.entries(fronts)) {
