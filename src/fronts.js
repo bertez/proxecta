@@ -35,6 +35,18 @@ export default {
     transform: [1, -0.08, 0, 1, 0, 0],
     composite: "overlay",
   },
+  jofre: {
+    image: "/img/jofre.jpg",
+    fillStyle: "rgba(255, 207, 103, .8)",
+    minSize: 40,
+    maxSize: 200,
+    wFactor: 1.5,
+    hFactor: 2.2,
+    xFactor: 6,
+    yFactor: 5,
+    transform: [1, -0.18, -0.02, 1, 0, 0],
+    composite: "overlay",
+  },
   lugo: {
     image: "/img/lugo.jpg",
     fillStyle: "rgba(133, 197, 230,.9)",
