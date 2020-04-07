@@ -6,7 +6,7 @@ export default {
     maxSize: 140,
     wFactor: 2.5,
     hFactor: 2,
-    xFactor: 3,
+    xFactor: 2.8,
     yFactor: 3.5,
     transform: [1, 0.29, 0.06, 1, 0, 0],
     composite: "soft-light",
