@@ -73,7 +73,7 @@ export default {
   },
   peregrina: {
     image: "/img/peregrina.jpg",
-    fillStyle: "rgba(121, 247, 243, .7)",
+    fillStyle: "rgba(225, 255, 255, .8)",
     minSize: 20,
     maxSize: 150,
     wFactor: 3,
