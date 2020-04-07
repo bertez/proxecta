@@ -71,6 +71,18 @@ export default {
     transform: [1, -0.27, -0.02, 1, 0, 0],
     composite: "overlay",
   },
+  peregrina: {
+    image: "/img/peregrina.jpg",
+    fillStyle: "rgba(121, 247, 243, .7)",
+    minSize: 20,
+    maxSize: 150,
+    wFactor: 3,
+    hFactor: 2.5,
+    xFactor: 2.9,
+    yFactor: 3.3,
+    transform: [1, 0, 0, 1, 0, 0],
+    composite: "overlay",
+  },
   random: {
     image: "/img/random.jpg",
     fillStyle: "rgba(255, 219, 41,.9)",

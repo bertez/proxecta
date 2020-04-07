@@ -80,6 +80,7 @@ section.app form textarea {
 }
 
 section.app form select {
+  appearance: none;
   display: block;
   font-size: 1rem;
   font-family: sans-serif;
